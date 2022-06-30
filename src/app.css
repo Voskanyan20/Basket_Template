@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.login__form{
+    margin: 13% auto;
+    background: #c0c0c061;
+    text-align: center;
+    padding: 60px;
+    box-shadow: 0 0 14px 0;
+    border-radius: 17px;
+}
+.login__form label{
+    padding-bottom:5px;
+}
+.login__form input{
+    margin-bottom: 5px;
+}
+.login__form button{
+    margin: 15px 0;
+    width: 80px;
+    height: 32px;
+}
+.user__header{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px silver solid;
+}
+.shop_header{
+    background-image: url(https://images.unsplash.com/photo-1559163179-3fd017552229?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OHwyNTIyODczfHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+    margin: 20px;
+    border-radius: 10px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shop__main{
+    width: 90%;
+    margin: 0 auto;
+    background-color: silver;
+    border-radius: 10px;
+}
+.baskett{
+    width: 90%;
+    margin: 15px auto;
+    background: silver;
+    border-radius: 10px;
+}
+.totals{
+    margin-bottom: 10px;
+}
